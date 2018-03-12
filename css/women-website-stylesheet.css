@@ -10,7 +10,7 @@
 }
 
 .img1 {
-    background-image: url("http://jkrowling.com/wp-content/uploads/2016/12/JKROWLINGPR_S01_00057_V4.jpg");
+    background-image: url('media/jk-rowling.jpg');
     background-size: cover;
     background-position: center;
     /*margin: 10px; */
