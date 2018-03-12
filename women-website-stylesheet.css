@@ -1,0 +1,45 @@
+.fullpage {
+    background-color: lightblue;
+    height: 86vh;
+    width: 100vw;
+}
+
+
+.halfheight{
+    height: 45%;
+}
+
+.img1 {
+    background-image: url("http://jkrowling.com/wp-content/uploads/2016/12/JKROWLINGPR_S01_00057_V4.jpg");
+    background-size: cover;
+    background-position: center;
+    /*margin: 10px; */
+}
+
+.mobileheight {
+    position: relative;
+}
+
+.authorheader {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.h1 {
+    ;
+}
+
+@media only screen and (max-width: 768px) {
+    .mobileheight {
+        height: 100vh;
+    }
+
+    .halfheight {
+        height: auto;
+    }
+
+}
