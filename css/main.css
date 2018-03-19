@@ -1,0 +1,45 @@
+
+/*adding some margins to the row*/
+.row{
+    margin: 20px;
+}
+
+
+/*changing the font for H1; font imported from Google fonts
+make sure to add this to head in html
+<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">*/
+h1{
+    font-family: 'Special Elite', cursive;
+}
+
+
+/*editing the horizontal line (hr) between sectios*/
+hr {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #5B6C56;
+  border-style: solid none;
+  border-width: 7px 0;
+  margin: 60px 30px;
+}
+
+
+/*changing social buttoms*/
+#social-buttons button {
+    color: white
+}
+.btn-twitter {
+    background: #00acee;
+    border-color: #009ad5;
+}
+.btn-facebook {
+    background: #4868ac;
+    border-color: #314776;
+}
+.btn-pinterest {
+    background: #b62f26;
+    border-color: #b62f26;
+}
