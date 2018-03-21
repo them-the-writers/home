@@ -1,0 +1,160 @@
+.author-link {
+    font-family: 'Special Elite', cursive;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black,
+    -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: light-grey;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+.descrip {
+    margin-top: 5%;
+    margin-right: 10%;
+    font-size: 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/*///////////////////////SOCIAL BUTTONS////////////////////////////////////////*/
+.mobile-buttons{
+    visibility: hidden;
+}
+.buttons-center {
+    margin-bottom: 30px;
+}
+
+#social-buttons button {
+    color: white
+}
+.btn-github {
+    background: #444444;
+    border-color: #009ad5;
+}
+.btn-facebook {
+    background: #4868ac;
+    border-color: #314776;
+}
+.btn-pinterest {
+    background: #b62f26;
+    border-color: #b62f26;
+}
+
+/*/////////////////////////////////////////////////////////////////////////*/
+
+
+.fullpage {
+    background-color: grey;
+    height: 86vh;
+    width: 100vw;
+}
+
+
+.halfheight{
+    height: 50%;
+}
+/*///////////////////////IMAGES////////////////////////////////////////*/
+.img1 {
+    background-image: url('http://scalar.usc.edu/works/engl205-05h-fall-2017/media/016ca177b49c1b6a833835d88c403e61.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+.img2 {
+    background-image: url('https://files.slack.com/files-tmb/T94QG7Y14-F9P473DEJ-22f846651e/siri_hustvedt_1_1024.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+.img3 {
+    background-image: url('https://www.babelio.com/users/AVT_Rosa-Montero_1757.jpeg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+.img4 {
+    background-image: url('https://jkrowling.com/wp-content/uploads/2016/12/JKROWLINGPR_S01_00057_V4.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+.img5 {
+    background-image: url('https://video-images.vice.com/_uncategorized/1501181477404-exhsp92.jpeg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+.img6 {
+    background-image: url('http://cdn.nybooks.com/wp-content/uploads/2016/11/messud_1-120816.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+.img7 {
+    background-image: url('http://www.comicsbeat.com/wp-content/uploads/2013/11/bechdel.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+.img8 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/0b/George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+
+
+/*//////////////////////////////////////////////////////////////////////*/
+.mobileheight {
+    position: relative;
+}
+
+.authorheader {
+    position: absolute;
+    text-align: center;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.navbar-brand {
+    font-family: 'Special Elite', cursive;
+    font-size: 40px;
+}
+
+/*////////////////////////MOBILE CHANGES//////////////////////////////////////////*/
+@media only screen and (max-width: 768px) {
+    .mobileheight {
+        height: 100vh;
+    }
+
+    .halfheight {
+        height: auto;
+    }
+    .buttons-center {
+        margin-bottom: 20px;
+        transform: translate(18%, 20%);
+    }
+    .desktop-buttons {
+        visibility: hidden;
+    }
+    .mobile-buttons{
+        visibility: visible;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .descrip{
+        margin-top: 0%
+    }
+}
