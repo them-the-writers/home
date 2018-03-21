@@ -1,4 +1,4 @@
-
+/*CSS FOR AUTHOR' PAGES*/
 
 /*adding some margins to the row*/
 .row{
@@ -43,4 +43,19 @@ hr {
 .btn-pinterest {
     background: #b62f26;
     border-color: #b62f26;
+}
+
+
+
+/* CSSS FOR NAVBAR*/
+.navbar-brand{
+    font-family: 'Special Elite', cursive;
+}
+.navbar-default .navbar-fnt {
+    color: red;
+}
+
+}
+.navbar-nav{
+    color: red;
 }
