@@ -46,16 +46,7 @@ hr {
 }
 
 
-
 /* CSSS FOR NAVBAR*/
 .navbar-brand{
     font-family: 'Special Elite', cursive;
-}
-.navbar-default .navbar-fnt {
-    color: red;
-}
-
-}
-.navbar-nav{
-    color: red;
 }
