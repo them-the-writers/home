@@ -1,4 +1,4 @@
-
+/*CSS FOR AUTHOR' PAGES*/
 
 /*adding some margins to the row*/
 .row{
@@ -43,4 +43,27 @@ hr {
 .btn-pinterest {
     background: #b62f26;
     border-color: #b62f26;
+}
+
+
+/* CSS FOR NAVBAR*/
+.navbar-brand{
+    font-family: 'Special Elite', cursive;
+}
+
+
+/* CSS FOR CONTACT PAGE HEADER TEXT+IMAGE*/
+#contact_header{
+  align-content: center;
+  text-align: center;
+}
+.cfg_logo{
+  height: 70px;
+  weight: auto;
+}
+
+
+/* CSS FOR CONTACT FORM */
+#googleForm {
+  text-align: center;
 }
