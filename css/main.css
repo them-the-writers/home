@@ -13,6 +13,11 @@ h1{
     font-family: 'Special Elite', cursive;
 }
 
+/* Making all author images to gray scale */
+.gray_img{
+    filter: grayscale(100%);
+}
+
 
 /*editing the horizontal line (hr) between sectios*/
 hr {
@@ -66,5 +71,5 @@ hr {
 /* CSS FOR CONTACT FORM */
 #googleForm {
   text-align: center;
-  
+
 }
