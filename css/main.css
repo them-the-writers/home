@@ -46,7 +46,19 @@ hr {
 }
 
 
-/* CSSS FOR NAVBAR*/
+/* CSS FOR NAVBAR*/
 .navbar-brand{
     font-family: 'Special Elite', cursive;
+}
+
+
+/* CSS FOR CONTACT PAGE HEADER TEXT+IMAGE*/
+#contact_header{
+  align-content: center;
+  text-align: center;
+}
+
+/* CSS FOR CONTACT FORM */
+#googleForm {
+  text-align: center;
 }
