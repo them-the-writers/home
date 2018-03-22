@@ -16,7 +16,8 @@ h1 {
 
 .descrip {
     margin-top: 5%;
-    margin-right: 10%;
+    margin-left: 10%
+    margin-right: 15%;
     font-size: 15px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -36,6 +37,14 @@ h1 {
 .btn-github {
     background: #444444;
     border-color: black;
+}
+.btn-facebook {
+    background: #4868ac;
+    border-color: #314776;
+}
+.btn-pinterest {
+    background: #b62f26;
+    border-color: #b62f26;
 }
 .color-green{
     background-color: #5B6C56;
