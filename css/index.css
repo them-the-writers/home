@@ -35,18 +35,11 @@ h1 {
 }
 .btn-github {
     background: #444444;
-    border-color: #009ad5;
-}
-.btn-facebook {
-    background: #4868ac;
-    border-color: #314776;
-}
-.btn-pinterest {
-    background: #b62f26;
-    border-color: #b62f26;
+    border-color: black;
 }
 .color-green{
     background-color: #5B6C56;
+    border-color: black;
 }
 
 
