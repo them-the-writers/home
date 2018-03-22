@@ -57,6 +57,11 @@ hr {
   align-content: center;
   text-align: center;
 }
+.cfg_logo{
+  height: 70px;
+  weight: auto;
+}
+
 
 /* CSS FOR CONTACT FORM */
 #googleForm {
