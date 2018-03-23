@@ -18,6 +18,10 @@ h1{
     filter: grayscale(100%);
 }
 
+.book{
+    height: 180px;
+    weight: auto;
+}
 
 /*editing the horizontal line (hr) between sectios*/
 hr {
