@@ -18,6 +18,7 @@ h1{
     filter: grayscale(100%);
 }
 
+/* Making all bokks same height */
 .book{
     height: 180px;
     weight: auto;
