@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Rosa Montero</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!--custom CSS, called main-->
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+  </head>
+  <body>
+
+
+
+      <!-- including a navbar from bootstrap-->
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://them-the-writers.github.io/home/">Them, the Writers</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                 <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
+                 <li><a href="https://them-the-writers.github.io/home/">Home</a></li>
+                 <li class="active" class="dropdown"> <!-- include the class active here to highlight authors button-->
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Authors<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="isabel_allende.html">Isabel Allende</a></li>
+                          <li><a href="margaret_atwood.html">Margaret Atwood</a></li>
+                          <li><a href="alison_bechdel.html">Alison Bechdel</a></li>
+                          <li><a href="siri_hustvedt.html">Siri Hustvedt</a></li>
+                          <li><a href="rosa_montero.html">Rosa Montero</a></li>
+                          <li><a href="sylvia_plath.html">Sylvia Plath</a></li>
+                          <li><a href="zadie_smith.html">Zadie Smith</a></li>
+                          <li><a href="virginia_woolf.html">Virginia Woolf</a></li>
+                      </ul>
+                </li>
+                <li><a href="https://them-the-writers.github.io/home/contact-us.html">Contact</a></li>
+
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+
+     <br><br><br>
+
+
+
+
+    <div class=“container”> <!--use container-fluid to make it full width and not fixed width-->
+
+        <!--Initial grid with col-md-4 for author's photo, and col-md-8 for heading1 (name+country+date),
+        author's info (2 short paragraphs) and a quote-->
+        <div class="row">
+            <div class="col-md-4">
+                <img src="../images/rosa_montero.jpg" class="img-responsive gray_img" alt="Margaret Atwood image">
+            </div>
+            <div class="col-md-8"> <!--contains author´s name, country and date of birth in H1; info in P; and a quote from a novel insede a Blockquote div -->
+                <h1>Rosa Montero <small>(Spain, 1951)</small></h1>
+                <p class="lead">Rosa Montero is a Spanish journalist and contemporary fiction author. Montero was born in Madrid in 1951. Daughter of a bullfighter and a housewife, Montero suffered from tuberculosis as a child, what forced her to remain at home between the ages of five and nine; she began reading and writing extensively during that period.</p>
+                <p class="lead">In 1976, Montero graduated from Madrid's School of Philosophy and Arts and she began working as a journalist at <i>El País</i>, a national newspaper, where she has been working for the last four decades. Years later she published her first novel <i>Crónica del Desamor</i> (<i>Chronicle of Enmity</i>), in 1979. Montero is a very influential Spanish author and has won numerous awards as a novelist and as a journalist. Many of her books remain to be translated into English.</p>
+                <blockquote> <!--adds a quote from one of the author's books using the bootstrap class blockquote-->
+                    <p>“We always feel our reality isn’t enough. So we consume drugs and give ourselves artificial memories; we want to escape from the confinement of our lives. But I assure you that the only way to resolve the conflict is to learn to accept it and find your own place in the world.”</p>
+                    <small>Tears in Rain</small>
+                </blockquote>
+            </div>
+        </div>
+
+        <!-- hr adds an horizontal line and some white space (margins) betweek sections -->
+        <hr>
+
+
+         <!-- Four md-3 coloums with books (pic+summary+Goodread link) after the main author info block using the div class container marketing from bootstrap -->
+        <div class="container marketing">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-thumbnail book" src="../images/montero1.jpg" alt="The Cannibal’s Daughter">
+                    <h3>The Cannibal’s Daughter</h3>
+                    <p>Lucía and Ramón have been together for more than ten years, more for commodity than for love. They decide to spend the New Year in Vienna but just before their flight departures, Ramón disappears. After contacting the police, Lucía starts her own search for Ramón with the help of two singular men: Andrés, a mysterious young, and Fortuna, an old anarchist. What starts as a search for her husband soon becomes...</p>
+                    <p><a class="btn btn-default" href="https://www.goodreads.com/book/show/370353.La_hija_del_can_bal" role="button">Continue reading &raquo;</a></p>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-thumbnail book" src="../images/montero2.jpg" alt="The absurd idea of not seeing you again">
+                    <h3>The absurd idea of not seeing you again</h3>
+                    <p>“This book is about life… passionate and joyful, sentimental and quizzing”. After the death of her husband, Rosa Montero wrote this book, a personal memoir but also a tribute to the collective memory of the last decades in Spain. With an intimate narrative, the book talks about men and women, sex and death, the redeeming power of literature and the wisdom behind the simple pleasures of life. Presented with photos...</p>
+                    <p><a class="btn btn-default" href="https://www.goodreads.com/book/show/17567272-la-rid-cula-idea-de-no-volver-a-verte" role="button">Continue reading &raquo;</a></p>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-thumbnail book" src="../images/montero3.jpg" alt="Beautiful and Dark">
+                    <h3>Beautiful and Dark</h3>
+                    <p>Baba is an orphaned girl taken to live with her relatives in a slum called El Barrio. There she meets her grandmother Bárbara, the matriarch of the family, her aunt Amanda, submitted to her violent husband, and Chico, her teenager cousin. Trying to cope with the mystery and violence of the adult world around her, Baba is drawn to the Lilliputian Airelei, who fascinates her with fantastic tales that mix myth and memory...</p>
+                    <p><a class="btn btn-default" href="https://www.goodreads.com/book/show/7256208-beautiful-and-dark" role="button">Continue reading &raquo;</a></p>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-thumbnail book" src="../images/montero4.jpg" alt="The Delta Function">
+                    <h3>The Delta Function</h3>
+                    <p>In 2010, Lucía Ramos, a one-time film director, is dying of cancer. She keeps two diaries, one chronicling the last months of her life, the other Easter Week 1980, when her first and only film opened. In that crucial week of her life, she was abandoned by one of her two lovers and, deciding to give up her difficult, independent lifestyle, moved in with the other. The tone in both diaries is disappointingly similar; melancholy, reflective...</p>
+                    <p><a class="btn btn-default" href="https://www.goodreads.com/book/show/1842422.The_Delta_Function" role="button">Continue reading &raquo;</a></p>
+                </div>
+            </div><!-- ends row with books -->
+        </div>
+
+
+        <!-- hr adds an horizontal line and some white space (margins) betweek sections -->
+        <hr>
+
+
+        <div id="social-buttons" class="text-center">
+            <button class="btn btn-md btn-twitter">Twitter</button>
+            <button class="btn btn-md btn-facebook">Facebook</button>
+            <button class="btn btn-md btn-pinterest">Pinterest</button>
+        </div>
+
+        <!--the br breaks add an empty space after the social buttons before the end of the webpage-->
+        <br><br><br>
+
+
+    </div>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
