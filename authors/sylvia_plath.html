@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Sylvia Plath</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!--custom CSS, called main-->
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+  </head>
+  <body>
+
+
+
+      <!-- including a navbar from bootstrap-->
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://them-the-writers.github.io/home/">Them, the Writers</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                 <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
+                 <li><a href="https://them-the-writers.github.io/home/">Home</a></li>
+                 <li class="active" class="dropdown"> <!-- include the class active here to highlight authors button-->
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Authors<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="isabel_allende.html">Isabel Allende</a></li>
+                          <li><a href="margaret_atwood.html">Margaret Atwood</a></li>
+                          <li><a href="alison_bechdel.html">Alison Bechdel</a></li>
+                          <li><a href="siri_hustvedt.html">Siri Hustvedt</a></li>
+                          <li><a href="rosa_montero.html">Rosa Montero</a></li>
+                          <li><a href="sylvia_plath.html">Sylvia Plath</a></li>
+                          <li><a href="zadie_smith.html">Zadie Smith</a></li>
+                          <li><a href="virginia_woolf.html">Virginia Woolf</a></li>
+                      </ul>
+                </li>
+                <li><a href="https://them-the-writers.github.io/home/contact-us.html">Contact</a></li>
+
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+
+     <br><br><br>
+
+
+
+
+    <div class=“container”> <!--use container-fluid to make it full width and not fixed width-->
+
+        <!--Initial grid with col-md-4 for author's photo, and col-md-8 for heading1 (name+country+date),
+        author's info (2 short paragraphs) and a quote-->
+        <div class="row">
+            <div class="col-md-4">
+                <img src="../images/sylvia_plath.jpeg" class="img-responsive gray_img" alt="Sylvia Plath image">
+            </div>
+            <div class="col-md-8"> <!--contains author´s name, country and date of birth in H1; info in P; and a quote from a novel insede a Blockquote div -->
+                <h1>Sylvia Plath <small>(America, 1932-1963)</small></h1>
+                <p class="lead">Sylvia Plath is an American power, novelist, and short story writer best known for her confessional poetry. Her two most famous published works are <i>Ariel</i>, a collection of poems, and <i>The Bell Jar</i> which is a semi-autobiographical novel which was published posthumously. Throughout her life Plath suffered from severe depression, which she first experienced during college. She was subjected to electroconvulsive therapy for this, after which she attempted suicide. Her writing deals with the feelings of depression she suffered throughout her entire life and often invokes deeply personal details, such as that of her miscarriage and how her husband treated her.</p>
+                <p class="lead">Her most famous works were written in periods of creativity where she would write endlessly; two of these works are <i>The Bell Jar</i> and <i>Ariel</i>.</p>
+                <blockquote> <!--adds a quote from one of the author's books using the bootstrap class blockquote-->
+                    <p>“I can never read all the books I want; I can never be all the people I want and live all the lives I want. I can never train myself in all the skills I want. And why do I want? I want to live and feel all the shades, tones and variations of mental and physical experience possible in my life. And I am horribly limited.” way to resolve the conflict is to learn to accept it and find your own place in the world.” </p>
+                    <small>The Unabridged Journals of Sylvia Plath</small>
+                </blockquote>
+            </div>
+        </div>
+
+        <!-- hr adds an horizontal line and some white space (margins) betweek sections -->
+        <hr>
+
+
+         <!-- Four md-3 coloums with books (pic+summary+Goodread link) after the main author info block using the div class container marketing from bootstrap -->
+        <div class="container marketing">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-thumbnail book" src="../images/plath1.jpg" alt="The Bell Jar image">
+                    <h3>The Bell Jar</h3>
+                    <p>Esther Greenwood is brilliant, beautiful, enormously talented, and successful, but slowly going under—maybe for the last time. In her acclaimed and enduring masterwork, Sylvia Plath brilliantly draws the reader into Esther's breakdown with such intensity that her insanity becomes palpably real, even rational—as accessible an experience as going to the movies. A deep penetration into the darkest and most harrowing corners of the human psyche.</p>
+                    <p><a class="btn btn-default" href="https://www.goodreads.com/book/show/6514.The_Bell_Jar" role="button">Continue reading &raquo;</a></p>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-thumbnail book" src="../images/plath2.jpg" alt="Ariel image">
+                    <h3>Ariel</h3>
+                    <p>When Sylvia Plath died, she not only left behind a prolific life but also her unpublished literary masterpiece, Ariel. Her husband, Ted Hughes, brought the collection to life in 1966, and its publication garnered worldwide acclaim. This collection showcases the beloved poet’s brilliant, provoking, and always moving poems, including <i>Ariel</i> and once again shows why readers have fallen in love with her work throughout the generations.</p>
+                    <p><a class="btn btn-default" href="https://www.goodreads.com/book/show/395090.Ariel" role="button">Continue reading &raquo;</a></p>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-thumbnail book" src="../images/plath3.jpg" alt="The Unabridged Journals of Sylvia Plath image">
+                    <h3>The Unabridged Journals of Sylvia Plath</h3>
+                    <p>Sylvia Plath's journals were originally published in 1982 in a heavily abridged version authorized by Plath's husband, Ted Hughes. This new edition is an exact and complete transcription of the diaries Plath kept during the last twelve years of her life. Sixty percent of the book is material that has never before been made public, more fully revealing the intensity of the poet's personal and literary struggles.</p>
+                    <p><a class="btn btn-default" href="https://www.goodreads.com/book/show/46756.Oryx_and_Crake" role="button">Continue reading &raquo;</a></p>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-thumbnail book" src="../images/plath4.jpg" alt="Crossing the Water image">
+                    <h3>Crossing the Water</h3>
+                    <p>Crossing the Water is a 1971 posthumous collection of poetry by Sylvia Plath that was prepared for publication by Ted Hughes. These are transitional poems that were written along with the poems that appear in her poetic opus, Ariel.
+                    </p>
+                    <p><a class="btn btn-default" href="https://www.goodreads.com/book/show/295148.Crossing_the_Water" role="button">Continue reading &raquo;</a></p>
+                </div>
+            </div><!-- ends row with books -->
+        </div>
+
+
+        <!-- hr adds an horizontal line and some white space (margins) betweek sections -->
+        <hr>
+
+
+        <div id="social-buttons" class="text-center">
+            <button class="btn btn-md btn-twitter">Twitter</button>
+            <button class="btn btn-md btn-facebook">Facebook</button>
+            <button class="btn btn-md btn-pinterest">Pinterest</button>
+        </div>
+
+        <!--the br breaks add an empty space after the social buttons before the end of the webpage-->
+        <br><br><br>
+
+
+    </div>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

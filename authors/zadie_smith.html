@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Zadie Smith</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!--custom CSS, called main-->
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+  </head>
+  <body>
+
+
+
+      <!-- including a navbar from bootstrap-->
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://them-the-writers.github.io/home/">Them, the Writers</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                 <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
+                 <li><a href="https://them-the-writers.github.io/home/">Home</a></li>
+                 <li class="active" class="dropdown"> <!-- include the class active here to highlight authors button-->
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Authors<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="isabel_allende.html">Isabel Allende</a></li>
+                          <li><a href="margaret_atwood.html">Margaret Atwood</a></li>
+                          <li><a href="alison_bechdel.html">Alison Bechdel</a></li>
+                          <li><a href="siri_hustvedt.html">Siri Hustvedt</a></li>
+                          <li><a href="rosa_montero.html">Rosa Montero</a></li>
+                          <li><a href="sylvia_plath.html">Sylvia Plath</a></li>
+                          <li><a href="zadie_smith.html">Zadie Smith</a></li>
+                          <li><a href="virginia_woolf.html">Virginia Woolf</a></li>
+                      </ul>
+                </li>
+                <li><a href="https://them-the-writers.github.io/home/contact-us.html">Contact</a></li>
+
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+
+     <br><br><br>
+
+
+
+
+    <div class=“container”> <!--use container-fluid to make it full width and not fixed width-->
+
+        <!--Initial grid with col-md-4 for author's photo, and col-md-8 for heading1 (name+country+date),
+        author's info (2 short paragraphs) and a quote-->
+        <div class="row">
+            <div class="col-md-4">
+                <img src="../images/zadie_smith.jpg" class="img-responsive gray_img" alt="Zadie Smith image">
+            </div>
+            <div class="col-md-8"> <!--contains author´s name, country and date of birth in H1; info in P; and a quote from a novel insede a Blockquote div -->
+                <h1>Zadie Smith <small>(England, 1975)</small></h1>
+                <p class="lead">Zadie Smith was born in North London to an English father and a Jamaican mother. She read English at Cambridge, graduating in 1997. As a child, Smith was fond of tap dancing,and in her teenage years, she considered a career in musical theatre. While at university, Smith earned money as a jazz singer. The publication of her first book, <i>White Teeth</i>, came during while she was still studying at university.
+                </p>
+                <p class="lead">The publicity that arose from this commercial faith in her writing undoubtedly ensured the attention of literary critics once it was completed. Her work is broad ranging and often focused on deconstructing Western mythologies of racial stereotypes.
+                </p>
+                <blockquote> <!--adds a quote from one of the author's books using the bootstrap class blockquote-->
+                    <p>“You are never stronger...than when you land on the other side of despair.” </p>
+                    <small>White Teeth</small>
+                </blockquote>
+            </div>
+        </div>
+
+        <!-- hr adds an horizontal line and some white space (margins) betweek sections -->
+        <hr>
+
+
+         <!-- Four md-3 coloums with books (pic+summary+Goodread link) after the main author info block using the div class container marketing from bootstrap -->
+        <div class="container marketing">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-thumbnail book" src="../images/zadie1.jpg" alt="The White Teeth image">
+                    <h3>White Teeth</h3>
+                    <p>On New Year's morning, 1975, Archie Jones sits in his car on a London road and waits for the exhaust fumes to fill his Cavalier Musketeer station wagon. Archie—working-class, ordinary, a failed marriage under his belt—is calling it quits, the deciding factor being the flip of a 20-pence coin. When the owner of a nearby halal butcher shop...</p>
+                    <p><a class="btn btn-default" href="https://www.goodreads.com/book/show/3711.White_Teeth" role="button">Continue reading &raquo;</a></p>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-thumbnail book" src="../images/zadie2.jpg" alt="Swing Time image">
+                    <h3>Swing Time</h3>
+                    <p>Two brown girls dream of being dancers--but only one, Tracey, has talent. The other has ideas: about rhythm and time, about black bodies and black music, about what constitutes a tribe, or makes a person truly free. It's a close but complicated childhood friendship that ends abruptly in their early twenties, never to be revisited, but never quite forgotten, either.</p>
+                    <p><a class="btn btn-default" href="https://www.goodreads.com/book/show/28390369-swing-time" role="button">Continue reading &raquo;</a></p>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-thumbnail book" src="../images/zadie3.jpg" alt="NW image">
+                    <h3>NW</h3>
+                    <p>Set in northwest London, Zadie Smith’s brilliant tragicomic novel follows four locals—Leah, Natalie, Felix, and Nathan—as they try to make adult lives outside of Caldwell, the council estate of their childhood. In private houses and public parks, at work and at play, these Londoners inhabit a complicated place, as beautiful as it is brutal, where the thoroughfares hide the back alleys and taking the high road can sometimes lead you to a dead end.</p>
+                    <p><a class="btn btn-default" href="https://www.goodreads.com/book/show/13537891-nw" role="button">Continue reading &raquo;</a></p>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-thumbnail book" src="../images/zadie4.jpg" alt="The Autograph Man image">
+                    <h3>The Autograph Man</h3>
+                    <p>Alex-Li Tandem sells autographs. His business is to hunt for names on paper, collect them, sell them, and occasionally fake them—all to give the people what they want: a little piece of Fame. But what does Alex want? Only the return of his father, the end of religion, something for his headache, three different girls, infinite grace, and the rare autograph of forties movie actress Kitty Alexander. With fries.
+                    </p>
+                    <p><a class="btn btn-default" href="https://www.goodreads.com/book/show/3710.The_Autograph_Man" role="button">Continue reading &raquo;</a></p>
+                </div>
+            </div><!-- ends row with books -->
+        </div>
+
+
+        <!-- hr adds an horizontal line and some white space (margins) betweek sections -->
+        <hr>
+
+
+        <div id="social-buttons" class="text-center">
+            <button class="btn btn-md btn-twitter">Twitter</button>
+            <button class="btn btn-md btn-facebook">Facebook</button>
+            <button class="btn btn-md btn-pinterest">Pinterest</button>
+        </div>
+
+        <!--the br breaks add an empty space after the social buttons before the end of the webpage-->
+        <br><br><br>
+
+
+    </div>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
