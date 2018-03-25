@@ -67,49 +67,49 @@ h1 {
 }
 /*///////////////////////IMAGES////////////////////////////////////////*/
 .img1 {
-    background-image: url('http://scalar.usc.edu/works/engl205-05h-fall-2017/media/016ca177b49c1b6a833835d88c403e61.jpg');
+    background-image: url('../images/atwood_photo.jpg');
     background-size: cover;
     background-position: center;
     filter: grayscale(100%);
 }
 .img2 {
-    background-image: url('https://files.slack.com/files-tmb/T94QG7Y14-F9P473DEJ-22f846651e/siri_hustvedt_1_1024.jpg');
+    background-image: url('../images/siri_hustvedt.jpg');
     background-size: cover;
     background-position: center;
     filter: grayscale(100%);
 }
 .img3 {
-    background-image: url('https://www.babelio.com/users/AVT_Rosa-Montero_1757.jpeg');
+    background-image: url('../images/rosa_montero.jpeg');
     background-size: cover;
     background-position: center;
     filter: grayscale(100%);
 }
 .img4 {
-    background-image: url('https://files.slack.com/files-pri/T94QG7Y14-F9T30KSMN/isabel_allende.jpg');
+    background-image: url('../images/isabel_allende.jpg');
     background-size: cover;
     background-position: center;
     filter: grayscale(100%);
 }
 .img5 {
-    background-image: url('https://video-images.vice.com/_uncategorized/1501181477404-exhsp92.jpeg');
+    background-image: url('../images/sylvia_plath.jpeg');
     background-size: cover;
     background-position: center;
     filter: grayscale(100%);
 }
 .img6 {
-    background-image: url('http://cdn.nybooks.com/wp-content/uploads/2016/11/messud_1-120816.jpg');
+    background-image: url('../images/zadie_smith.jpg');
     background-size: cover;
     background-position: center;
     filter: grayscale(100%);
 }
 .img7 {
-    background-image: url('http://www.comicsbeat.com/wp-content/uploads/2013/11/bechdel.jpg');
+    background-image: url('../images/alison_bechdel.jpg');
     background-size: cover;
     background-position: center;
     filter: grayscale(100%);
 }
 .img8 {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/0b/George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg');
+    background-image: url('../images/virginia_woolf.jpg');
     background-size: cover;
     background-position: center;
     filter: grayscale(100%);
