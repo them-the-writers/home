@@ -1,3 +1,4 @@
+/* Template CSS from https://bootsnipp.com/snippets/r1Z7d */
 .port-image
 {
     width: 100%;
@@ -43,4 +44,12 @@
     padding:10px;
 
     transition: all .5s;
+}
+
+
+/* Making all author images to gray scale */
+img{
+    filter: grayscale(100%);
+    /* background-size: cover;
+    background-position: center;*/
 }
