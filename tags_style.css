@@ -23,7 +23,7 @@
 .cap1
 {
     position:absolute;
-    width:90%;
+    width:210px;
     height:70%;
     background:rgba(255, 255, 255, 0.5);
     color: black;
@@ -37,7 +37,7 @@
 .cap2
 {
     position:absolute;
-    width:90%;
+    width:210px;
     height:30%;
     background:rgba(91, 108, 86, 0.5);  /* same color as HEX #5B6C56 used for HR*/
     bottom:0px;
