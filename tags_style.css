@@ -50,6 +50,12 @@
 
 /* Customised CSS */
 /* Making all author images to gray scale */
+.btn-primary{
+  background: #5B6C56;
+  border-color: #445140;
+}
+
+
 a{
   color: white;
 }
