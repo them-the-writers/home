@@ -26,6 +26,7 @@
     width:90%;
     height:70%;
     background:rgba(255, 255, 255, 0.5);
+    color: black;
     top:0px;
     left:-100%;
     padding:10px;
@@ -38,7 +39,7 @@
     position:absolute;
     width:90%;
     height:30%;
-    background:rgba(0, 178, 255, 0.5);
+    background:rgba(91, 108, 86, 0.5);  /* same color as HEX #5B6C56 used for HR*/
     bottom:0px;
     left:100%;
     padding:10px;
@@ -47,13 +48,19 @@
 }
 
 
+/* Customised CSS */
 /* Making all author images to gray scale */
+a{
+  color: white;
+}
+
 img{
     filter: grayscale(100%);
     /* background-size: cover;
     background-position: center;*/
 }
 
+/* class for images */
 .thumb1 {
   background: url(blah.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
   height: 250px;
