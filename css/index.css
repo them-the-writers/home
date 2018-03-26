@@ -67,7 +67,7 @@ h1 {
 }
 /*///////////////////////IMAGES////////////////////////////////////////*/
 .img1 {
-    background-image: url('../images/atwood_photo.jpg');
+    background-image: url('../images/margaret_atwood.jpg');
     background-size: cover;
     background-position: center;
     filter: grayscale(100%);
@@ -79,7 +79,7 @@ h1 {
     filter: grayscale(100%);
 }
 .img3 {
-    background-image: url('../images/rosa_montero.jpeg');
+    background-image: url('../images/rosa_montero2.jpg');
     background-size: cover;
     background-position: center;
     filter: grayscale(100%);
