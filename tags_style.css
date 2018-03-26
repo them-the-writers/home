@@ -55,7 +55,9 @@
   border-color: #445140;
 }
 
-
+a:hover{
+  color:gray;
+}
 a{
   color: white;
 }
@@ -66,9 +68,12 @@ img{
     background-position: center;*/
 }
 
+
+
+
 /* class for images */
 .thumb1 {
   background: url(blah.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
   height: 250px;
-  width: 220px;
+  width: 210px;
 }
