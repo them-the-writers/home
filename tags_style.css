@@ -23,7 +23,7 @@
 .cap1
 {
     position:absolute;
-    width:100%;
+    width:90%;
     height:70%;
     background:rgba(255, 255, 255, 0.5);
     top:0px;
@@ -36,7 +36,7 @@
 .cap2
 {
     position:absolute;
-    width:100%;
+    width:90%;
     height:30%;
     background:rgba(0, 178, 255, 0.5);
     bottom:0px;
@@ -52,4 +52,10 @@ img{
     filter: grayscale(100%);
     /* background-size: cover;
     background-position: center;*/
+}
+
+.thumb1 {
+  background: url(blah.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+  height: 250px;
+  width: 220px;
 }
